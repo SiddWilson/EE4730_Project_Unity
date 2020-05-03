@@ -13,7 +13,7 @@ SET ZIP_EXT=.zip
 SET EXCLUDE_FILE=xcopy_exclude.txt
 SET BINARY_FOLDER=openpose-binary
 SET LIB_PATH=%BINARY_FOLDER%\bin
-SET PLUGINS_PATH=OpenPosePlugin\Assets\OpenPose\Plugins\
+SET PLUGINS_PATH=Assets\OpenPose\Plugins\
 
 echo ----- Deleting old plugins -----
 rd /s/q %PLUGINS_PATH%
