@@ -75,11 +75,9 @@ namespace OpenPose.Example {
             // Enable receiving image (default false)
             OPWrapper.OPEnableImageOutput(true);
 
-            // Configure OpenPose with default value, or using specific configuration for each
-            /* OPWrapper.OPConfigureAllInDefault(); */
+            // Configure OpenPose 
             UserConfigureOpenPose();
 
-            // Start OpenPose
             OPWrapper.OPRun();
         }
 
@@ -177,11 +175,9 @@ namespace OpenPose.Example {
                 }
                 int i = 0;
                 foreach (var human in humanContainer.GetComponentsInChildren<HumanController2D>()) {
-                    // When i >= no. of human, the human will be hidden
                     human.DrawHuman(ref datum, i++, renderThreshold);
                 }
 
-                // Update framerate in UI
                 frameTimeQueue.Enqueue(Time.time);
                 frameCounter++;
                 if (frameTimeQueue.Count > queueMaxCount){ // overflow

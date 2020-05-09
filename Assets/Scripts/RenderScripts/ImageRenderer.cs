@@ -15,7 +15,6 @@ namespace OpenPose.Example
 
 		// Texture to be rendered in background image
 		private Texture2D texture;
-
 		private RectTransform rectTransform { get { return GetComponent<RectTransform>(); } }
 		private RawImage image { get { return GetComponent<RawImage>(); } }
 

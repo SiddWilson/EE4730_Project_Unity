@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace OpenPose {
     /*
-     * OPWrapper wraps OpenPose API and provide a friendly user function set
+     * OPWrapper wraps OpenPose API
      */
     public class OPWrapper : MonoBehaviour {
 
@@ -81,8 +81,7 @@ namespace OpenPose {
                 Debug.LogWarning("Trying to shutdown, while OpenPose is not running");
             }
         }
-        // Pose parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigurePose(
             PoseMode poseMode = PoseMode.Enabled, Vector2Int? netInputSize = null, Vector2Int? outputSize = null,
             ScaleMode keypointScaleMode = ScaleMode.InputResolution,
@@ -116,8 +115,7 @@ namespace OpenPose {
                 maximizePositives, fpsMax, protoTxtPath, caffeModelPath, upsamplingRatio
             );
         }
-        // Hand parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigureHand(
             bool enable = false, Detector detector = Detector.Body, Vector2Int? netInputSize = null,
             int scalesNumber = 1, float scaleRange = 0.4f, RenderMode renderMode = RenderMode.Auto,
@@ -132,8 +130,7 @@ namespace OpenPose {
                 alphaKeypoint, alphaHeatMap, renderThreshold
             );
         }
-        // Face parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigureFace(
             bool enable = false, Detector detector = Detector.Body,
             Vector2Int? netInputSize = null, RenderMode renderMode = RenderMode.Auto,
@@ -148,17 +145,14 @@ namespace OpenPose {
                 alphaKeypoint, alphaHeatMap, renderThreshold
             );
         }
-        // Extra parameter configuration (with default value)
-        // NOTICE: 3D output is not yet supported
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigureExtra(
             bool reconstruct3d = false, int minViews3d = -1, bool identification = false, int tracking = -1,
             int ikThreads = 0){
 
             OPBind._OPConfigureExtra(reconstruct3d, minViews3d, identification, tracking, ikThreads);
         }
-        // Input parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigureInput(
             ProducerType producerType = ProducerType.None, string producerString = "-1",
             ulong frameFirst = 0, ulong frameStep = 1, ulong frameLast = ulong.MaxValue,
@@ -179,8 +173,7 @@ namespace OpenPose {
                 cameraParameterPath, undistortImage, numberViews
             );
         }
-        // Output parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
+
         public static void OPConfigureOutput(
             double verbose = -1.0, string writeKeypoint = "", DataFormat writeKeypointFormat = DataFormat.Xml,
             string writeJson = "", string writeCocoJson = "", int writeCocoJsonVariants = 1,
@@ -198,8 +191,6 @@ namespace OpenPose {
                 writeBvh, udpHost, udpPort
             );
         }
-        // GUI parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
         public static void OPConfigureGui(
             DisplayMode displayMode = DisplayMode.NoDisplay,
             bool guiVerbose = false, bool fullScreen = false){
@@ -209,8 +200,6 @@ namespace OpenPose {
                 guiVerbose, fullScreen
             );
         }
-        // Debugging parameter configuration (with default value)
-        // Please refer to OpenPose documentation for parameter explanation
         public static void OPConfigureDebugging(
             Priority loggingLevel = Priority.High, // Priority
 			bool disableMultiThread = false, ulong profileSpeed = 1000){
@@ -261,7 +250,7 @@ namespace OpenPose {
         # endregion
 
         # region OpenPose thread
-        // OP thread
+        // OP main thread
         private static void OPExecuteThread() {
             // Start OP with output callback
             OPBind._OPRun();

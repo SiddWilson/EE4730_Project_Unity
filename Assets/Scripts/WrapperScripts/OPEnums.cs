@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

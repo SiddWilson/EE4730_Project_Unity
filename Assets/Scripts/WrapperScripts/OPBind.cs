@@ -2,11 +2,7 @@
 using System.Runtime.InteropServices;
 
 namespace OpenPose {
-    /*
-     * Bind to OpenPose C++ library (openpose.dll)
-     * Do not use the functions in this class unless you really understand them
-     * Use OPWrapper instead
-     */
+
     public static class OPBind {
 
         // Output callback delegate
@@ -15,39 +11,20 @@ namespace OpenPose {
         // Logging callback delegate
         public delegate void DebugCallback(string message, int type);
 
-        /*
-         * Send a callback function to openpose output. No output will be received if no callback is sent.
-         * Enable/disable the output callback. Can be set at runtime.
-         */
         [DllImport("openpose")] public static extern void _OPRegisterOutputCallback(OutputCallback callback);
+
         [DllImport("openpose")] public static extern void _OPSetOutputEnable(bool enable);
 
-        /*
-         * Send a callback function to openpose logging system. No message will be received if no callback is sent.`
-         * The function will be called in op::log() or op::logError().
-         * Enable/disable the debug callback. Can be set at runtime.
-         */
         [DllImport("openpose")] public static extern void _OPRegisterDebugCallback(DebugCallback callback);
+
         [DllImport("openpose")] public static extern void _OPSetDebugEnable(bool enable);
 
-        /*
-         * Enable/disable image output callback. Disable will save some time since data is large.
-         */
         [DllImport("openpose")] public static extern void _OPSetImageOutputEnable(bool enable);
 
-        /*
-         * Run openpose if not running. It may take several seconds to fully start.
-         */
         [DllImport("openpose")] public static extern void _OPRun();
 
-        /*
-         * Shut down openpose program if it is running. It may take several seconds to fully stop it.
-         */
         [DllImport("openpose")] public static extern void _OPShutdown();
 
-        /*
-         * Openpose configurations - please read openpose documentation for explanation
-         */
         [DllImport("openpose")] public static extern void _OPConfigurePose(
             byte poseMode, int netInputSizeX, int netInputSizeY, // Point
             int outputSizeX, int outputSizeY, // Point
