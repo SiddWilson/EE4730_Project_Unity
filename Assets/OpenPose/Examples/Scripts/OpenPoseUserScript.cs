@@ -1,13 +1,10 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace OpenPose.Example {
-    /*
-     * User example of using OPWrapper
-     */
+
     public class OpenPoseUserScript : MonoBehaviour {
 
         // HumanController2D prefab
@@ -27,7 +24,7 @@ namespace OpenPose.Example {
         // OpenPose settings
         public ProducerType inputType = ProducerType.Webcam;
         public string producerString = "-1";
-        public int maxPeople = -1;
+        public int maxPeople = 1;
         public float renderThreshold = 0.05f;
         public bool
             handEnabled = false,
@@ -52,7 +49,7 @@ namespace OpenPose.Example {
             StartCoroutine(UserRebootOpenPoseCoroutine());
         }
 
-        // Bg image
+        // Background image
         public bool renderBgImg = false;
         public void ToggleRenderBgImg(){
             renderBgImg = !renderBgImg;

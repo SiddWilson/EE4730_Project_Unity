@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 
 namespace OpenPose {

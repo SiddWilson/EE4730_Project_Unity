@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,7 +13,7 @@ namespace OpenPose.Example
 		// Initial size of screen, default (1280, 720)
 		[SerializeField] Vector2Int screenSize;
 
-		// Texture to be rendered in image
+		// Texture to be rendered in background image
 		private Texture2D texture;
 
 		private RectTransform rectTransform { get { return GetComponent<RectTransform>(); } }
@@ -25,16 +24,13 @@ namespace OpenPose.Example
 			if (data == null || data.Empty()) return;
 			int height = data.GetSize(0), width = data.GetSize(1);
 			
-			/* TRICK */
-			// Unity does not support BGR24 yet, which is the color format in OpenCV.
-			// Here we are using RGB24 as data format, then swap R and B in shader, to maintain the performance.
 			rectTransform.sizeDelta = new Vector2Int(width, height);
 			texture.Resize(width, height, TextureFormat.RGB24, false);
 			texture.LoadRawTextureData(data.ToArray());
 			texture.Apply();			
 		}
 
-		// Visual effect for image
+		// Fade out effect for image
 		public void FadeInOut(bool renderImage, float duration = 0.5f){
 			if (renderImage) StartCoroutine(FadeCoroutine(Color.white, duration));
 			else StartCoroutine(FadeCoroutine(Color.clear, duration));
@@ -50,7 +46,6 @@ namespace OpenPose.Example
 			image.color = goal;
 		}
 
-		// Use this for initialization
 		void Start () {
 			texture = new Texture2D(screenSize.x, screenSize.y);
 			image.texture = texture;

@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,6 +26,7 @@ namespace OpenPose.Example {
         private List<RectTransform> lHandJoints = new List<RectTransform>();
         private List<RectTransform> rHandJoints = new List<RectTransform>();
         private List<RectTransform> faceJoints = new List<RectTransform>();
+        private List<List<Vector3>> poseJointAverages = new List<List<Vector3>>();
 
         public void DrawHuman(ref OPDatum datum, int bodyIndex, float scoreThres = 0){
             DrawBody(ref datum, bodyIndex, scoreThres);
@@ -46,17 +46,67 @@ namespace OpenPose.Example {
             for (int part = 0; part < poseJoints.Count; part++) {
                 // Joints overflow
                 if (part >= datum.poseKeypoints.GetSize(1)) {
-                    poseJoints[part].gameObject.SetActive(false);
+                    //poseJoints[part].gameObject.SetActive(false);
                     continue;
                 }
                 // Compare score
                 if (datum.poseKeypoints.Get(bodyIndex, part, 2) <= scoreThres) {
                     poseJoints[part].gameObject.SetActive(false);
                 } else {
-                    poseJoints[part].gameObject.SetActive(true);
+                    poseJoints[part].gameObject.SetActive(true);          
                     Vector3 pos = new Vector3(datum.poseKeypoints.Get(bodyIndex, part, 0), datum.poseKeypoints.Get(bodyIndex, part, 1), 0f);
-                    poseJoints[part].localPosition = pos;
-                }
+                    Vector3 posAvg = new Vector3();
+
+
+                    if (poseJointAverages[part] == null)
+                    {
+                        poseJointAverages[part] = new List<Vector3>(5);
+                        posAvg = pos;
+                    }
+                    else 
+                    {
+                        foreach (Vector3 item in poseJointAverages[part])
+                        {
+                            posAvg += item;
+                        }
+                        posAvg /= poseJointAverages[part].Count;
+                    }
+
+                    if (Vector3.Distance(posAvg, pos) < 10 && Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos) < 3) 
+                    {
+                        poseJoints[part].localPosition = Vector3.Lerp(posAvg, pos, 0.07F);
+                        //Debug.Log("Vector Distance > 50, posAvg:" + posAvg + "  pos: " + pos + " prior pos: " + poseJointAverages[part][poseJointAverages[part].Count - 1]
+                            //   + "distance between posAvg/pos:" + Vector3.Distance(posAvg, pos) + " distance between pos/priorpos: " + Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos));
+                    }
+                        
+                    else if (Vector3.Distance(posAvg, pos) < 10 && Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos) > 3) 
+                    {
+                        poseJoints[part].localPosition = Vector3.Lerp(posAvg, pos, 0.5F);
+                       // Debug.Log("Vector Distance > 50, posAvg:" + posAvg + "  pos: " + pos + " prior pos: " + poseJointAverages[part][poseJointAverages[part].Count - 1]
+                         //      + "distance between posAvg/pos:" + Vector3.Distance(posAvg, pos) + " distance between pos/priorpos: " + Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos));
+                    }
+                        
+                    else if (Vector3.Distance(posAvg, pos) < 20 && Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos) < 15)
+                        poseJoints[part].localPosition = Vector3.Lerp(posAvg, pos, 0.75F);
+                    else if (Vector3.Distance(posAvg, pos) < 20 && Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos) >= 15) 
+                    {
+                        poseJoints[part].localPosition = Vector3.Lerp(posAvg, pos, 0.90F);
+                    }
+                    //else if (Vector3.Distance(posAvg, pos) > 20 && Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos) > 30)
+                    //{
+                    //    Debug.Log("Vector Distance > 50, posAvg:" + posAvg + "  pos: " + pos + " prior pos: " + poseJointAverages[part][poseJointAverages[part].Count - 1]
+                    //        + "distance between posAvg/pos:" + Vector3.Distance(posAvg, pos) + " distance between pos/priorpos: " + Vector3.Distance(poseJointAverages[part][poseJointAverages[part].Count - 1], pos));
+
+                    //    poseJoints[part].localPosition = Vector3.Lerp(posAvg, pos, 0.8F);
+
+                    //}
+                    else
+                        poseJoints[part].localPosition = pos;
+                    
+                    poseJointAverages[part].Add(pos);
+                    if (poseJointAverages[part].Count >= 5) poseJointAverages[part].RemoveAt(0);
+
+                    }
             }
         }
 
@@ -169,7 +219,9 @@ namespace OpenPose.Example {
                 Debug.Assert(PoseParent.childCount == PoseKeypointsCount, "Pose joint count not match");
                 for (int i = 0; i < PoseKeypointsCount; i++) {
                     poseJoints.Add(PoseParent.GetChild(i) as RectTransform);
+                    poseJointAverages.Add(new List<Vector3>(5));
                 }
+                
             }
             // LHand
             if (LHandParent) {

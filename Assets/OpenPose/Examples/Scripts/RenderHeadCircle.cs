@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace OpenPose.Example {

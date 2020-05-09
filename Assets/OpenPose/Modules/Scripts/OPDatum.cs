@@ -1,5 +1,4 @@
-﻿// OpenPose Unity Plugin v1.0.0alpha-1.5.0
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +6,6 @@ using UnityEngine;
 namespace OpenPose {
     /*
         Data struct for OP output
-        Comments are from OpenPose
      */
     public struct OPDatum{
         public ulong id; /**< Datum ID. Internally used to sort the Datums if multi-threading is used. */
@@ -129,43 +127,6 @@ namespace OpenPose {
          * Size each Array: #people x #hand parts (21) x output_net_height x output_net_width
          */
         public Pair<MultiArray<float>> handHeatMaps;
-
-        // ---------------------------------------- 3-D Reconstruction parameters ---------------------------------------- //
-        /**
-         * Body pose (x,y,z,score) locations for each person in the image.
-         * Size: #people x #body parts (e.g. 18 for COCO or 15 for MPI) x 4 ((x,y,z) coordinates + score)
-         */
-        public MultiArray<float> poseKeypoints3D; // Not supported yet
-
-        /**
-         * Face keypoints (x,y,z,score) locations for each person in the image.
-         * It has been resized to the same resolution as `poseKeypoints3D`.
-         * Size: #people x #face parts (70) x 4 ((x,y,z) coordinates + score)
-         */
-        public MultiArray<float> faceKeypoints3D; // Not supported yet
-
-        /**
-         * Hand keypoints (x,y,z,score) locations for each person in the image.
-         * It has been resized to the same resolution as `poseKeypoints3D`.
-         * handKeypoints[0] corresponds to left hands, and handKeypoints[1] to right ones.
-         * Size each Array: #people x #hand parts (21) x 4 ((x,y,z) coordinates + score)
-         */
-        public Pair<MultiArray<float>> handKeypoints3D; // Not supported yet
-
-        /**
-         * 3x4 camera matrix of the camera (equivalent to cameraIntrinsics * cameraExtrinsics).
-         */
-        public Matrix4x4 cameraMatrix; // Not supported yet
-
-        /**
-         * 3x4 extrinsic parameters of the camera.
-         */
-        public Matrix4x4 cameraExtrinsics; // Not supported yet
-
-        /**
-         * 3x3 intrinsic parameters of the camera.
-         */
-        public Matrix4x4 cameraIntrinsics; // Not supported yet
     }
 
     // From OpenPose: std::array<2>

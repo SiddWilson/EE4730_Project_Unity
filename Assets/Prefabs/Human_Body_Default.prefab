@@ -51,6 +51,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224299786996320744}
   Joint1: {fileID: 224129021939149388}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120738923608517652
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -65,6 +68,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -76,6 +80,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -232,6 +237,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224958999001917356}
   Joint1: {fileID: 224958999001917356}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120219032535005224
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -246,6 +254,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -257,6 +266,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -413,6 +423,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224966488043169254}
   Joint1: {fileID: 224292817093106604}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120074615781750660
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -427,6 +440,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -438,6 +452,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -460,8 +475,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -559,6 +574,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224154968795546392}
   Joint1: {fileID: 224777769271221608}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120021907196032054
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -573,6 +591,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -584,6 +603,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -810,6 +830,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224369340552132360}
   Joint1: {fileID: 224457819751982912}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120945887020565986
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -824,6 +847,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -835,6 +859,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -956,6 +981,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224494143335444758}
   Joint1: {fileID: 224080224031895852}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120953755798662766
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -970,6 +998,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -981,6 +1010,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1158,6 +1188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224840986952309344}
   Joint1: {fileID: 224840986952309344}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120069699636125114
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1172,6 +1205,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1183,6 +1217,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1374,6 +1409,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224154191643183706}
   Joint1: {fileID: 224154191643183706}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120296456939601962
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1388,6 +1426,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1399,6 +1438,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1555,6 +1595,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224148515820397676}
   Joint1: {fileID: 224148515820397676}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120196778610234332
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1569,6 +1612,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1580,6 +1624,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1701,6 +1746,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224325572350185986}
   Joint1: {fileID: 224966488043169254}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120516806645894332
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1715,6 +1763,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1726,6 +1775,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1748,8 +1798,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1882,6 +1932,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224467985830663548}
   Joint1: {fileID: 224087603661504504}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120099382758039244
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1896,6 +1949,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1907,6 +1961,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2028,6 +2083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224611083173534612}
   Joint1: {fileID: 224024904283202440}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120935290462113826
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2042,6 +2100,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2053,6 +2112,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2174,6 +2234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224063329400969260}
   Joint1: {fileID: 224063329400969260}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120554797891934548
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2188,6 +2251,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2199,6 +2263,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2355,6 +2420,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224256908003421048}
   Joint1: {fileID: 224256908003421048}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120254821067829410
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2369,6 +2437,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2380,6 +2449,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2536,6 +2606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224502488638054634}
   Joint1: {fileID: 224502488638054634}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120808948270039730
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2550,6 +2623,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2561,6 +2635,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2682,6 +2757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224129021939149388}
   Joint1: {fileID: 224729428124889820}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120353138681412394
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2696,6 +2774,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2707,6 +2786,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2898,6 +2978,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224664082567053342}
   Joint1: {fileID: 224632714499730332}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120599537584596876
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -2912,6 +2995,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2923,6 +3007,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3149,6 +3234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224889720226079418}
   Joint1: {fileID: 224889720226079418}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120544413476397102
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -3163,6 +3251,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -3174,6 +3263,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3470,6 +3560,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224373746839318112}
   Joint1: {fileID: 224373746839318112}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120102828351286968
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -3484,6 +3577,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -3495,6 +3589,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3686,6 +3781,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224841368476701052}
   Joint1: {fileID: 224841368476701052}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120875424395430140
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -3700,6 +3798,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -3711,6 +3810,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4067,6 +4167,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224108359378256510}
   Joint1: {fileID: 224124523745582432}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120073172376695610
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4081,6 +4184,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4092,6 +4196,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4114,8 +4219,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4213,6 +4318,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224575607277698080}
   Joint1: {fileID: 224575607277698080}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120322905999974034
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4227,6 +4335,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4238,6 +4347,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4359,6 +4469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224791273148563634}
   Joint1: {fileID: 224122037701524416}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120838210510642838
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4373,6 +4486,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4384,6 +4498,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4540,6 +4655,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224618467964661842}
   Joint1: {fileID: 224618467964661842}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120217235922398336
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4554,6 +4672,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4565,6 +4684,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4686,6 +4806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224220217010040358}
   Joint1: {fileID: 224220217010040358}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120218380819982366
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4700,6 +4823,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4711,6 +4835,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4872,6 +4997,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224704306246687228}
   Joint1: {fileID: 224704306246687228}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120538250697426874
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4886,6 +5014,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4897,6 +5026,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5088,6 +5218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224572808514830604}
   Joint1: {fileID: 224515416226394580}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120981975321003016
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -5102,6 +5235,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5113,6 +5247,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5269,6 +5404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224515416226394580}
   Joint1: {fileID: 224467985830663548}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120332782412533486
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -5283,6 +5421,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5294,6 +5433,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5485,6 +5625,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224436206701734578}
   Joint1: {fileID: 224496806308468500}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120813304524379496
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -5499,6 +5642,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5510,6 +5654,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5631,6 +5776,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224903748771350030}
   Joint1: {fileID: 224903748771350030}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120613827756799068
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -5645,6 +5793,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5656,6 +5805,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5882,6 +6032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224503356542388270}
   Joint1: {fileID: 224503356542388270}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120637914798834888
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -5896,6 +6049,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5907,6 +6061,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6028,6 +6183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224452050556487950}
   Joint1: {fileID: 224452050556487950}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120918796422490582
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6042,6 +6200,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -6053,6 +6212,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6209,6 +6369,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224514365146336820}
   Joint1: {fileID: 224152080764322212}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120976575264445240
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6223,6 +6386,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -6234,6 +6398,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6256,8 +6421,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -6425,6 +6590,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224336811130675830}
   Joint1: {fileID: 224336811130675830}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120547723672050832
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6439,6 +6607,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -6450,6 +6619,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6621,6 +6791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224888973164536760}
   Joint1: {fileID: 224738714264414344}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120306362476031970
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6635,6 +6808,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -6646,6 +6820,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6837,6 +7012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224985021277671786}
   Joint1: {fileID: 224611083173534612}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120009383923344940
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6851,6 +7029,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -6862,6 +7041,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7048,7 +7228,7 @@ GameObject:
   - component: {fileID: 224010362344866068}
   - component: {fileID: 114006422057181508}
   m_Layer: 5
-  m_Name: Human2D_Body25
+  m_Name: Human_Body_Default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7148,6 +7328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224053849904016736}
   Joint1: {fileID: 224053849904016736}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120437656365420216
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7162,6 +7345,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -7173,6 +7357,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7364,6 +7549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224522549978586954}
   Joint1: {fileID: 224522549978586954}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120051505937169922
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7378,6 +7566,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -7389,6 +7578,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7510,6 +7700,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224037187623376676}
   Joint1: {fileID: 224108698697180294}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120014671069714214
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7524,6 +7717,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -7535,6 +7729,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7656,6 +7851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224381402084287876}
   Joint1: {fileID: 224381402084287876}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120489260696865640
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7670,6 +7868,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -7681,6 +7880,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7872,6 +8072,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224824063785144884}
   Joint1: {fileID: 224824063785144884}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120648929451975136
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7886,6 +8089,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -7897,6 +8101,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8018,6 +8223,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224132388058470058}
   Joint1: {fileID: 224132388058470058}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120353401711666666
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8032,6 +8240,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8043,6 +8252,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8164,6 +8374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224386191524502866}
   Joint1: {fileID: 224386191524502866}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120923056215453926
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8178,6 +8391,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8189,6 +8403,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8345,6 +8560,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224584614485938632}
   Joint1: {fileID: 224584614485938632}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120451007868761800
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8359,6 +8577,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8370,6 +8589,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8491,6 +8711,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224891435994435770}
   Joint1: {fileID: 224891435994435770}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120723386925012350
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8505,6 +8728,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8516,6 +8740,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8637,6 +8862,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224779740665959210}
   Joint1: {fileID: 224779740665959210}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120295370041985702
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8651,6 +8879,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8662,6 +8891,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8783,6 +9013,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224874152685082056}
   Joint1: {fileID: 224874152685082056}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120695721232102106
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8797,6 +9030,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8808,6 +9042,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -8964,6 +9199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224857974680919538}
   Joint1: {fileID: 224857974680919538}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120783755572753436
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8978,6 +9216,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8989,6 +9228,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9110,6 +9350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224294480876939240}
   Joint1: {fileID: 224902260881154302}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120523150118711110
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9124,6 +9367,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9135,6 +9379,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9291,6 +9536,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224729428124889820}
   Joint1: {fileID: 224461309875740924}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120488852913921810
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9305,6 +9553,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9316,6 +9565,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9472,6 +9722,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224369340552132360}
   Joint1: {fileID: 224436206701734578}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120598160717704702
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9486,6 +9739,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9497,6 +9751,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9653,6 +9908,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224369340552132360}
   Joint1: {fileID: 224395570219599514}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120694330806910342
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9667,6 +9925,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9678,6 +9937,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9834,6 +10094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224970847597313386}
   Joint1: {fileID: 224515087984033070}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120437225875443840
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9848,6 +10111,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9859,6 +10123,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9881,8 +10146,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -10120,6 +10385,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224325572350185986}
   Joint1: {fileID: 224970847597313386}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120278944992620430
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -10134,6 +10402,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -10145,6 +10414,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -10167,8 +10437,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -10476,6 +10746,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224125829696566440}
   Joint1: {fileID: 224353323349559816}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120466594393014790
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -10490,6 +10763,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -10501,6 +10775,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -10622,6 +10897,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224004619597988524}
   Joint1: {fileID: 224004619597988524}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120583932298375758
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -10636,6 +10914,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -10647,6 +10926,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -10873,6 +11153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224509702195064208}
   Joint1: {fileID: 224509702195064208}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120581071520989310
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -10887,6 +11170,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -10898,6 +11182,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -11089,6 +11374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224588249943683344}
   Joint1: {fileID: 224588249943683344}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120844725418839120
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11103,6 +11391,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11114,6 +11403,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -11270,6 +11560,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224354044247661404}
   Joint1: {fileID: 224354044247661404}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120082479866693910
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11284,6 +11577,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11295,6 +11589,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -11416,6 +11711,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224631469632508340}
   Joint1: {fileID: 224537280964347392}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120227389269670952
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11430,6 +11728,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11441,6 +11740,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -11463,8 +11763,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -11737,6 +12037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224353323349559816}
   Joint1: {fileID: 224208525547817636}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120812612767349416
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11751,6 +12054,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11762,6 +12066,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -11883,6 +12188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224899783951804170}
   Joint1: {fileID: 224899783951804170}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120865187665767008
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11897,6 +12205,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -11908,6 +12217,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12029,6 +12339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224192602321322660}
   Joint1: {fileID: 224192602321322660}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120886975065204532
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12043,6 +12356,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12054,6 +12368,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12175,6 +12490,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224152080764322212}
   Joint1: {fileID: 224274188522261118}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120035345662770240
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12189,6 +12507,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12200,6 +12519,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12222,8 +12542,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -12356,6 +12676,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224602095470045530}
   Joint1: {fileID: 224036116586872922}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120565965420787930
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12370,6 +12693,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12381,6 +12705,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12502,6 +12827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224855765139938922}
   Joint1: {fileID: 224855765139938922}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120509790250210646
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12516,6 +12844,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12527,6 +12856,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12683,6 +13013,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224611083173534612}
   Joint1: {fileID: 224024904283202440}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120951512643602592
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12697,6 +13030,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12708,6 +13042,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12829,6 +13164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224494143335444758}
   Joint1: {fileID: 224572808514830604}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120413900996914248
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12843,6 +13181,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -12854,6 +13193,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -12975,6 +13315,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224118669899766568}
   Joint1: {fileID: 224118669899766568}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120482122522270678
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12989,6 +13332,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13000,6 +13344,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13191,6 +13536,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224424794018625878}
   Joint1: {fileID: 224424794018625878}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120543226959064276
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -13205,6 +13553,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13216,6 +13565,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13337,6 +13687,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224011561215694472}
   Joint1: {fileID: 224011561215694472}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120501666572942230
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -13351,6 +13704,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13362,6 +13716,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13483,6 +13838,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224076035798374774}
   Joint1: {fileID: 224076035798374774}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120625787109486532
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -13497,6 +13855,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13508,6 +13867,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13664,6 +14024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224080224031895852}
   Joint1: {fileID: 224072226268165322}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120940237676431050
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -13678,6 +14041,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13689,6 +14053,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13810,6 +14175,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224611797172751512}
   Joint1: {fileID: 224611797172751512}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120422399802177110
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -13824,6 +14192,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -13835,6 +14204,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13991,6 +14361,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224956468829796918}
   Joint1: {fileID: 224443673150238498}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120474640209413830
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14005,6 +14378,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14016,6 +14390,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -14172,6 +14547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224395570219599514}
   Joint1: {fileID: 224664082567053342}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120462660663435780
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14186,6 +14564,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14197,6 +14576,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -14373,6 +14753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224457819751982912}
   Joint1: {fileID: 224125829696566440}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120217182405132200
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14387,6 +14770,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14398,6 +14782,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -14659,6 +15044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224688703917903186}
   Joint1: {fileID: 224688703917903186}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120501970382132530
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14673,6 +15061,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14684,6 +15073,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -14805,6 +15195,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224494143335444758}
   Joint1: {fileID: 224272412966449782}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120342784322095470
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14819,6 +15212,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -14830,6 +15224,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -14986,6 +15381,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224603892201160438}
   Joint1: {fileID: 224603892201160438}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120553127252492334
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15000,6 +15398,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15011,6 +15410,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -15167,6 +15567,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224691671406277196}
   Joint1: {fileID: 224691671406277196}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120163826979866492
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15181,6 +15584,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15192,6 +15596,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -15348,6 +15753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224808704987596702}
   Joint1: {fileID: 224808704987596702}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120692259396618064
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15362,6 +15770,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15373,6 +15782,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -15494,6 +15904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224738714264414344}
   Joint1: {fileID: 224956468829796918}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120807958760576026
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15508,6 +15921,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15519,6 +15933,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -15675,6 +16090,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224274188522261118}
   Joint1: {fileID: 224241580405710114}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120306547096813786
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15689,6 +16107,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15700,6 +16119,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -15722,8 +16142,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -15856,6 +16276,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224409020115682090}
   Joint1: {fileID: 224409020115682090}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120281076885276298
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -15870,6 +16293,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15881,6 +16305,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16093,6 +16518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224494143335444758}
   Joint1: {fileID: 224294480876939240}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120761288268272796
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16107,6 +16535,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16118,6 +16547,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16309,6 +16739,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224496806308468500}
   Joint1: {fileID: 224602095470045530}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120195295818167214
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16323,6 +16756,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16334,6 +16768,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16490,6 +16925,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224469154646500882}
   Joint1: {fileID: 224469154646500882}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120993133442817340
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16504,6 +16942,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16515,6 +16954,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16706,6 +17146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224072226268165322}
   Joint1: {fileID: 224154968795546392}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120716145797842008
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16720,6 +17163,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16731,6 +17175,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16922,6 +17367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224360985117717544}
   Joint1: {fileID: 224631469632508340}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120551717854081912
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16936,6 +17384,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -16947,6 +17396,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -16969,8 +17419,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17068,6 +17518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224961703038188464}
   Joint1: {fileID: 224037187623376676}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120339385084346656
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -17082,6 +17535,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -17093,6 +17547,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -17319,6 +17774,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224515087984033070}
   Joint1: {fileID: 224997901366529458}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120817194641533364
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -17333,6 +17791,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -17344,6 +17803,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -17366,8 +17826,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17958,6 +18418,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224902260881154302}
   Joint1: {fileID: 224791273148563634}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120690319422738726
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -17972,6 +18435,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -17983,6 +18447,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -18314,6 +18779,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224970847597313386}
   Joint1: {fileID: 224514365146336820}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120067722356657874
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -18328,6 +18796,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18339,6 +18808,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -18361,8 +18831,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18460,6 +18930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224997901366529458}
   Joint1: {fileID: 224108359378256510}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120936792761031612
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -18474,6 +18947,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18485,6 +18959,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -18507,8 +18982,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18606,6 +19081,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224292817093106604}
   Joint1: {fileID: 224654760815936826}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120112596760244416
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -18620,6 +19098,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18631,6 +19110,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -18653,8 +19133,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18952,6 +19432,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224108698697180294}
   Joint1: {fileID: 224868904494333732}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120456630133541148
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -18966,6 +19449,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -18977,6 +19461,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19133,6 +19618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224369340552132360}
   Joint1: {fileID: 224961703038188464}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120784001527526452
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19147,6 +19635,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19158,6 +19647,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19279,6 +19769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224126183461387344}
   Joint1: {fileID: 224126183461387344}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120843660335518562
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19293,6 +19786,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19304,6 +19798,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19425,6 +19920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224086645873213290}
   Joint1: {fileID: 224086645873213290}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120924794724526494
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19439,6 +19937,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19450,6 +19949,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19606,6 +20106,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224764488027392480}
   Joint1: {fileID: 224764488027392480}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120804921947416100
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19620,6 +20123,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19631,6 +20135,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19752,6 +20257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224416651049199458}
   Joint1: {fileID: 224416651049199458}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120580744441328044
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19766,6 +20274,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19777,6 +20286,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -19898,6 +20408,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224577040069046660}
   Joint1: {fileID: 224577040069046660}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120138311935515400
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -19912,6 +20425,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -19923,6 +20437,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20079,6 +20594,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224190569084855160}
   Joint1: {fileID: 224190569084855160}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120468160436430750
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20093,6 +20611,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20104,6 +20623,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20260,6 +20780,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224136349386329028}
   Joint1: {fileID: 224136349386329028}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120109176975001510
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20274,6 +20797,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20285,6 +20809,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20406,6 +20931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224072540566561684}
   Joint1: {fileID: 224072540566561684}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120945410410343164
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20420,6 +20948,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20431,6 +20960,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20587,6 +21117,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224048976242738862}
   Joint1: {fileID: 224048976242738862}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120821464411500208
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20601,6 +21134,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20612,6 +21146,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20768,6 +21303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224494143335444758}
   Joint1: {fileID: 224888973164536760}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120080800872350006
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20782,6 +21320,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20793,6 +21332,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -20914,6 +21454,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224920164054401694}
   Joint1: {fileID: 224920164054401694}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120318426929831516
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -20928,6 +21471,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -20939,6 +21483,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -21095,6 +21640,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224983326442159228}
   Joint1: {fileID: 224983326442159228}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120526105223642028
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -21109,6 +21657,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -21120,6 +21669,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -21241,6 +21791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224223260737254100}
   Joint1: {fileID: 224223260737254100}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120111320486424364
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -21255,6 +21808,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -21266,6 +21820,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -21387,6 +21942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224692358303075858}
   Joint1: {fileID: 224692358303075858}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120066837536728500
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -21401,6 +21959,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -21412,6 +21971,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -21568,6 +22128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224527763803037962}
   Joint1: {fileID: 224527763803037962}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120001213126278968
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -21582,6 +22145,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -21593,6 +22157,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -21784,6 +22349,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224205235541316818}
   Joint1: {fileID: 224205235541316818}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120479721531436012
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -21798,6 +22366,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -21809,6 +22378,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22000,6 +22570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224345672603065414}
   Joint1: {fileID: 224345672603065414}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120275995190745874
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22014,6 +22587,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22025,6 +22599,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22146,6 +22721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224369340552132360}
   Joint1: {fileID: 224299786996320744}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120039387627909162
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22160,6 +22738,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22171,6 +22750,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22397,6 +22977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224931701141690944}
   Joint1: {fileID: 224931701141690944}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120870626300631032
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22411,6 +22994,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22422,6 +23006,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22543,6 +23128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224272412966449782}
   Joint1: {fileID: 224985021277671786}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120246529392688590
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22557,6 +23145,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22568,6 +23157,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22759,6 +23349,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224345347703680398}
   Joint1: {fileID: 224345347703680398}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120495227713999298
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22773,6 +23366,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22784,6 +23378,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -22940,6 +23535,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224234474761637624}
   Joint1: {fileID: 224234474761637624}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120510013301730354
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -22954,6 +23552,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -22965,6 +23564,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -23086,6 +23686,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224498323250347574}
   Joint1: {fileID: 224498323250347574}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120978327896957232
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -23100,6 +23703,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -23111,6 +23715,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -23232,6 +23837,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224325572350185986}
   Joint1: {fileID: 224360985117717544}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120146531870045244
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -23246,6 +23854,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -23257,6 +23866,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -23279,8 +23889,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.030075073
+        value: 0.27777863
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -23382,17 +23992,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1975964147635770}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 978eed90e5a9bb242918447a3ff7f7e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -23402,6 +24011,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &114900967867472010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23468,6 +24078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224537583680605078}
   Joint1: {fileID: 224537583680605078}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120169296051786474
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -23482,6 +24095,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -23493,6 +24107,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -23614,6 +24229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224446653228144508}
   Joint1: {fileID: 224446653228144508}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120277494166436124
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -23628,6 +24246,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -23639,6 +24258,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -23865,6 +24485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joint0: {fileID: 224907447262225252}
   Joint1: {fileID: 224907447262225252}
+  isSprite: 0
+  spriteAsset: {fileID: 0}
+  imageScale: 0
 --- !u!120 &120385596505708312
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -23879,6 +24502,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -23890,6 +24514,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
